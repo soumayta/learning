@@ -3,6 +3,7 @@ from django.http import HttpResponse, response
 
 # Create your views here.
 def availabity(request):
+    print("testing git")
     return HttpResponse('The product is available') 
 
 def stock(request):
